@@ -1,0 +1,37 @@
+
+Brainf**k (.bf) 
+
+
+30,000 Byte 1-dimensional array
+Initializes to 0 with pointer at 0:
+
+0 0 0 0 0 0 0 0.....etc. 	
+^
+
+
+move ptr left	<
+move ptr right 	>
+increment 		+
+decrement 		-
+out byte 		.
+in byte 		, 
+loop			[]
+continues while current cell != 0;
+
+
+example program 
+
+
+add 2 inputs 
+
+,>,			in B0 B1
+<[->+<]		add B0 B1
+>>++++++++		B2 is 7
+			Do
+[-<------>]		Dec B1 six times
+			Dec B2
+			While B2 not 0
+<.
+
+
+n0hello world
